@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.timpolicar.recyclerviewtutorial">
 
+    <uses-permission android:name="android.permission.INTERNET"/> <!-- we have to give it permisson because we are getting data from internet-->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
